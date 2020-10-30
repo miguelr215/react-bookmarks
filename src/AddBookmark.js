@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import ',/addBookmark.css';
+import './addBookmark.css';
 
 class AddBookmark extends Component {
     render(){
@@ -12,7 +12,7 @@ class AddBookmark extends Component {
                     <label htmlFor='url'>URL: </label>
                     <input type='text' name='url' id='url' placeholder='URL' />
                     <label htmlFor='description'>Description: </label>
-                    <textarea name='description' id='description' placeholder='description'/>
+                    <textarea name='description' id='description' placeholder='Description'/>
                     <label htmlFor='rating'>Rating: </label>
                     <input
                         type='number'
