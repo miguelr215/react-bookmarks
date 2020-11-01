@@ -41,6 +41,8 @@ class AddBookmark extends Component {
         e.preventDefault();
         const {title, url, description, rating} = this.state;
         const bookmark = {title, url, description, rating};
+        // how is url declared twice in curriculum?
+        // what is the correct url
         const urlPost = 'https://tf-ed-bookmarks-api.herokuapp.com/v3/bookmarks';
         const options = {
             method: 'POST',
