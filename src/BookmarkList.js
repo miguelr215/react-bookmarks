@@ -4,6 +4,7 @@ import Bookmark from './Bookmark.js';
 
 class BookmarkList extends Component {
     render(){
+        console.log(this.props.bookmarks);
         const bookmarks = this
             .props
             .bookmarks
